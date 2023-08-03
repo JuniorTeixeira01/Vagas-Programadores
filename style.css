@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.container-topo{
+    height: 50px;
+    background-color: rgb(238, 84, 110);
+    color: white;
+    position: relative;
+}
+.container-topo span{
+    position: absolute;
+    margin: 15px 0 0 40px;
+}
+.container-conteudo-titulo{
+    width: 450px;
+    margin: 30px auto;
+    line-height: 40px;
+    color:rgb(165, 55, 73) ;
+}
+.container-conteudo-titulo p{
+    color: rgb(70, 66, 66);
+}
+form{
+    width: 500px;
+    height: 400px;
+    margin: 0 0 0 452px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    height: 30px;
+}
+.form-select-estados{
+    height: 40px;
+}
+button{
+    background-color: rgb(238, 84, 110);
+    color: white;
+    height: 30px;
+    font-size: 18px;
+}
+footer{
+    width: 230px;
+    margin: 30px auto;
+    color: rgb(238, 84, 110);
+    
+}
